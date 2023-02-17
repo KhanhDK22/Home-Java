@@ -10,6 +10,7 @@ class Circle {
 }
 public class Dao_Anh_Khanh {
     public static void main(String[] args) {
+        Circle c = new Circle();
         System.out.println(c.display1());
         System.out.println(c.display2());
     }
